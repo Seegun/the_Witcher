@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     background-image: url('../css/img/background.jpg');
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top right 20%;
 }
 .container {
     width: 95%;
