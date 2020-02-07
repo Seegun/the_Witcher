@@ -261,6 +261,7 @@ body {
     }
     .menu-button-active {
         height: 0;
+        z-index: 2;
     }
     .menu-button-active:before {
         transform: rotate(45deg);
@@ -282,6 +283,7 @@ body {
     }
     .header-active {
         display: flex;
+        z-index: 1;
     }
     .logo {
         margin-bottom: 25px;
@@ -308,10 +310,15 @@ body {
         width: 80%;
     }
     .main-content {
-        margin-top: 196px;
+        margin-top: 220px;
     }
     .main-title {
         font-size: 56px;
+        line-height: 66px;
+    }
+    .main-description{
+        font-size: 14px;
+        line-height: 150%;
     }
     .series {
         width: 80%;
